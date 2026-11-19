@@ -27,8 +27,8 @@ Po doplnení si projektové `README.md` otvorte v Obsidiane a skontrolujte, či 
 
 Schopnosť `zalozenie-projektu` vás prevedie otázkami o zámere, rozsahu a pravidlách projektu. Podľa odpovedí pripraví návrh, čo zapíše do ktorých súborov. Po vašom schválení založí projekt z čistej šablóny, ktorá je súčasťou balíka.
 
-- Stiahnite si [zalozenie-projektu.zip](zalozenie-projektu.zip) cez **Download raw file** a rozbaľte ho do samostatného pracovného priečinka. Pokyny si môžete vopred pozrieť v súbore [SKILL.md](zalozenie-projektu/SKILL.md).
-- V desktopovej aplikácii ChatGPT prepnite na **Work** a otvorte pracovný priečinok, do ktorého ste ZIP rozbalili. V chate zadajte tento pokyn.
+- Stiahnite si [zalozenie-projektu.zip](zalozenie-projektu.zip) cez **Download raw file**. V okne rozbalenia nastavte ako cieľ podpriečinok `zalozenie-projektu` vo svojom pracovnom priečinku. Po rozbalení v ňom nájdete priamo súbor [SKILL.md](zalozenie-projektu/SKILL.md) a priečinok `assets`.
+- V desktopovej aplikácii ChatGPT prepnite na **Work** a otvorte pracovný priečinok, ktorý obsahuje podpriečinok `zalozenie-projektu`. V chate zadajte tento pokyn.
 
 > Prečítaj si súbor `zalozenie-projektu/SKILL.md` a postupuj podľa neho. Chcem založiť nový projekt v samostatnom podpriečinku tohto pracovného priečinka.
 
