@@ -1,0 +1,8 @@
+interface:
+  display_name: "Založenie projektu"
+  short_description: "Sprievodca úvodným nastavením projektu"
+  default_prompt: "Použi $zalozenie-projektu a preveď ma založením nového projektu."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -23,6 +23,17 @@ Otvorte desktopovú aplikáciu ChatGPT. V hornej časti nového chatu prepnite n
 
 Po doplnení si projektové `README.md` otvorte v Obsidiane a skontrolujte, či vystihuje váš zámer. Ak šablónu používate bez AI, názov, účel a očakávaný výsledok doplňte do tohto súboru ručne.
 
+## Voliteľná schopnosť na založenie projektu
+
+Schopnosť `zalozenie-projektu` vás prevedie otázkami o zámere, rozsahu a pravidlách projektu. Podľa odpovedí pripraví návrh, čo zapíše do ktorých súborov. Po vašom schválení založí projekt z čistej šablóny, ktorá je súčasťou balíka.
+
+- Stiahnite si [ZIP so schopnosťou a šablónou](zalozenie-projektu.zip) cez **Download raw file** a rozbaľte ho do samostatného pracovného priečinka. Pokyny si môžete vopred pozrieť v súbore [SKILL.md](zalozenie-projektu/SKILL.md).
+- V desktopovej aplikácii ChatGPT prepnite na **Work** a otvorte pracovný priečinok, do ktorého ste ZIP rozbalili. V chate zadajte tento pokyn.
+
+> Prečítaj si súbor `zalozenie-projektu/SKILL.md` a postupuj podľa neho. Chcem založiť nový projekt v samostatnom podpriečinku tohto pracovného priečinka.
+
+Keď je projekt založený, jeho priečinok môžete otvoriť ako samostatný vault alebo ho vložiť do existujúceho vaultu.
+
 ## Kam ukladať súbory
 
 Ak napríklad pripravujete krátky kurz, nový podklad uložte do `00_inbox`, osnovu píšte v `04_pracovne` a schválený výsledok uložte do `05_vystupy`.
