@@ -11,13 +11,21 @@ Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_p
 - Stiahnite si [ZIP so šablónou 1.0](Sablona_projektu_v1.0.zip) cez tlačidlo **Download raw file** a rozbaľte ho. Priečinok `Sablona_projektu` si premenujte podľa svojho projektu, napríklad na `Priprava_kurzu`.
 - **Ak už máte vault**, skopírujte celý premenovaný priečinok doň. V Obsidiane nájdete nový projekt medzi ostatnými priečinkami.
 - **Ak začínate s novým vaultom**, v Obsidiane vyberte **Open folder as vault** a otvorte premenovaný priečinok projektu. Vault je priečinok na disku, v ktorom máte poznámky.
-- V projekte otvorte `README.md` a doplňte názov, účel a očakávaný výsledok. Pri ďalšom projekte začnite z novej kópie ZIP súboru.
+- Pri každom ďalšom projekte začnite z novej kópie ZIP súboru.
 
 Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults)
 
-## Prvý projekt
+## Založenie projektu s AI
 
-Predstavte si, že pripravujete krátky kurz. Do `README.md` doplňte, pre koho kurz pripravujete a čo má vzniknúť. Nový podklad uložte do `00_inbox`, osnovu píšte v `04_pracovne` a schválený výsledok uložte do `05_vystupy`.
+V Codexe otvorte priečinok nového projektu, v ktorom je súbor `AGENTS.md`. Skopírujte do chatu tento pokyn:
+
+> Prečítaj si projektové súbory AGENTS.md a README.md. Spýtaj sa ma na názov projektu, čo ním chcem dosiahnuť a podľa čoho spoznáme, že je hotový. Počkaj na moje odpovede a podľa nich doplň príslušné časti v README.md. Zachovaj jeho nadpisy a poradie. Uprav iba README.md a použi len údaje, ktoré ti potvrdím. Na záver mi stručne povedz, čo si doplnil a ktoré polia ešte treba vyplniť.
+
+Po doplnení si projektové `README.md` otvorte v Obsidiane a skontrolujte, či vystihuje váš zámer. Ak šablónu používate bez AI, názov, účel a očakávaný výsledok doplňte do tohto súboru ručne.
+
+## Kam ukladať súbory
+
+Ak napríklad pripravujete krátky kurz, nový podklad uložte do `00_inbox`, osnovu píšte v `04_pracovne` a schválený výsledok uložte do `05_vystupy`.
 
 | Kam | Čo tam patrí |
 | --- | --- |
@@ -32,13 +40,9 @@ Predstavte si, že pripravujete krátky kurz. Do `README.md` doplňte, pre koho 
 
 Nápady si odkladajte do `backlog.md`. Keď sa rozhodnete na niečom pracovať, zaevidujte úlohu v `open_items.md`. Dohody zapisujte do `decisions.md`, stručný aktuálny stav do `MEMORY.md` a priebeh práce do `diary.md`. Každý súbor má vlastnú vzorovú štruktúru.
 
-## Použitie s Codexom
+## Ďalšia práca s Codexom
 
-Ako pracovný priečinok v Codexe otvorte priečinok projektu, v ktorom je `AGENTS.md`. Tak mu sprístupníte súbory jedného projektu. Vlastné pravidlá pre AI môžete doplniť do `AGENTS.md`. Prvú úlohu môžete zadať napríklad takto:
-
-> Prečítaj AGENTS.md a README.md. Povedz mi, čo ešte chýba v zadaní projektu a aký prvý krok navrhuješ. Zatiaľ súbory neupravuj.
-
-Ak chcete výsledok uložiť, určte miesto, napríklad `04_pracovne/osnova_kurzu.md`, a potom si uložený súbor skontrolujte v Obsidiane.
+Vlastné pravidlá pre AI môžete doplniť do `AGENTS.md`. Keď zadávate úlohu, určte aj miesto na uloženie výsledku, napríklad `04_pracovne/osnova_kurzu.md`. Uložený súbor si potom skontrolujte v Obsidiane.
 
 ## Voliteľné automatické kontroly
 
