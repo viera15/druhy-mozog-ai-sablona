@@ -19,7 +19,7 @@ Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_p
 - **Ak začínate s novým vaultom**, v Obsidiane vyberte **Open folder as vault** a otvorte premenovaný priečinok projektu.
 - Pôvodný ZIP si odložte. Pri každom ďalšom projekte ho stačí rozbaliť do nového priečinka. Ak ZIP prepíšete alebo vymažete, môžete si ho znova stiahnuť z GitHubu.
 
-Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults) (v angličtine).
+Súbory Markdown (`.md`) môžete otvárať a upravovať v Obsidiane, vo Visual Studio Code alebo v Notepad++. V Poznámkovom bloku vo Windows ich môžete upravovať aj ako obyčajný text so značkami Markdownu. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults) (v angličtine).
 
 ## Založenie projektu s AI
 
