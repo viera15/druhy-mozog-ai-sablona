@@ -17,7 +17,7 @@ Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_p
 - Stiahnite si [Sablona_projektu_v1_0.zip](Sablona_projektu_v1_0.zip) cez tlačidlo **Download raw file** a rozbaľte ho. Priečinok `Sablona_projektu` si premenujte podľa svojho projektu, napríklad na `Priprava_kurzu`.
 - **Ak už máte vault**, skopírujte celý premenovaný priečinok doň. V Obsidiane nájdete nový projekt medzi ostatnými priečinkami.
 - **Ak začínate s novým vaultom**, v Obsidiane vyberte **Open folder as vault** a otvorte premenovaný priečinok projektu.
-- Pri každom ďalšom projekte začnite z novej kópie ZIP súboru.
+- Pôvodný ZIP si odložte. Pri každom ďalšom projekte ho stačí rozbaliť do nového priečinka. Ak ZIP prepíšete alebo vymažete, môžete si ho znova stiahnuť z GitHubu.
 
 Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults) (v angličtine).
 
