@@ -54,7 +54,7 @@ Pri zadávaní úlohy určite uveďte aj to, kam má AI uložiť výsledok, napr
 
 ## Voliteľné automatické kontroly
 
-Priečinok `.codex` obsahuje dva hooky. Sú to automatické kontroly, ktoré môže desktopová aplikácia ChatGPT spúšťať pri práci so súbormi vo Worku aj v Codexe, ak relácia beží celá lokálne. Jeden kontroluje vybrané zásahy do chránených súborov a druhý kontroluje projektovú štruktúru. Potrebujú Python 3. Pred povolením si pozrite konfiguráciu a skripty podľa návodu v `.codex/README.md`. Na ručné spustenie validátora použite z priečinka projektu tento príkaz:
+Priečinok `.codex` obsahuje dva hooky. Sú to automatické kontroly, ktoré môže desktopová aplikácia ChatGPT spúšťať pri práci so súbormi vo Worku aj v Codexe, ak relácia beží celá lokálne. Jeden kontroluje vybrané zásahy do chránených súborov a druhý kontroluje projektovú štruktúru. Na spúšťanie hookov aj ručného validátora potrebujete mať na svojom počítači nainštalovaný Python 3. Pred povolením si pozrite konfiguráciu a skripty podľa návodu v `.codex/README.md`. Na ručné spustenie validátora použite z priečinka projektu tento príkaz:
 
 ```text
 python .codex/hooks/project_validator.py --root .
