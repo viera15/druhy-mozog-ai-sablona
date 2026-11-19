@@ -38,7 +38,13 @@ Ak napríklad pripravujete krátky kurz, nový podklad uložte do `00_inbox`, os
 | `06_dashboard` | Miesto pre prípadný projektový dashboard |
 | `99_archiv` | Uzavreté alebo neaktuálne materiály |
 
-Nápady si odkladajte do `backlog.md`. Keď sa rozhodnete na niečom pracovať, zaevidujte úlohu v `open_items.md`. Dohody zapisujte do `decisions.md`, stručný aktuálny stav do `MEMORY.md` a priebeh práce do `diary.md`. Každý súbor má vlastnú vzorovú štruktúru.
+## Nápady, úlohy a záznamy
+
+**Bez AI** si nápady zapisujte do `backlog.md` a úlohy, ktorým ste sa rozhodli venovať, do `open_items.md`. Dohody patria do `decisions.md`, stručný aktuálny stav do `MEMORY.md` a priebeh práce do `diary.md`. Pri zápise sa riaďte vzorom v príslušnom súbore.
+
+**S AI** zadajte pokyn v režime Work a nechajte AI zapísať informáciu podľa vzoru. Môžete jej napríklad napísať „Zapíš do backlogu nápad pridať ku kurzu pracovný list“ alebo „Zapíš do rozhodnutí, že kurz bude trvať 60 minút“. Uložený záznam si potom skontrolujte.
+
+Z nápadu v `backlog.md` vytvorí AI úlohu v `open_items.md` iba na váš výslovný pokyn. Uveďte, ktorý nápad vyberáte, napríklad „Z nápadu NAP-003 vytvor otvorenú úlohu“. AI úlohu prepojí s pôvodným nápadom a ten zaeviduje v archíve ako vybraný. [Postup správy nápadov a úloh](Sablona_projektu/03_postupy/sprava_napadov_a_uloh.md)
 
 ## Ďalšia práca v režime Work
 
