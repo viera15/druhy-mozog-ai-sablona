@@ -13,7 +13,7 @@ Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_p
 - **Ak začínate s novým vaultom**, v Obsidiane vyberte **Open folder as vault** a otvorte premenovaný priečinok projektu. Vault je priečinok na disku, v ktorom máte poznámky.
 - Pri každom ďalšom projekte začnite z novej kópie ZIP súboru.
 
-Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults)
+Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults) (v angličtine).
 
 ## Založenie projektu s AI
 
