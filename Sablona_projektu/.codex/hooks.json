@@ -1,0 +1,33 @@
+{
+  "description": "Ochrana zdrojov a kontrola zakladnej struktury projektu.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^(Bash|apply_patch|Edit|Write)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"from pathlib import Path; import runpy,sys; p=next((d/'.codex/hooks/pre_tool_use_guard.py' for d in (Path.cwd(),*Path.cwd().parents) if (d/'.codex/hooks/pre_tool_use_guard.py').is_file()),None); sys.path.insert(0,str(p.parent)) if p else sys.exit('Hook script not found'); runpy.run_path(str(p),run_name='__main__')\"",
+            "commandWindows": "python -c \"from pathlib import Path; import runpy,sys; p=next((d/'.codex/hooks/pre_tool_use_guard.py' for d in (Path.cwd(),*Path.cwd().parents) if (d/'.codex/hooks/pre_tool_use_guard.py').is_file()),None); sys.path.insert(0,str(p.parent)) if p else sys.exit('Hook script not found'); runpy.run_path(str(p),run_name='__main__')\"",
+            "timeout": 10,
+            "statusMessage": "Kontrolujem chranene casti projektu"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "^(Bash|apply_patch|Edit|Write)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"from pathlib import Path; import runpy,sys; p=next((d/'.codex/hooks/post_tool_use_validate.py' for d in (Path.cwd(),*Path.cwd().parents) if (d/'.codex/hooks/post_tool_use_validate.py').is_file()),None); sys.path.insert(0,str(p.parent)) if p else sys.exit('Hook script not found'); runpy.run_path(str(p),run_name='__main__')\"",
+            "commandWindows": "python -c \"from pathlib import Path; import runpy,sys; p=next((d/'.codex/hooks/post_tool_use_validate.py' for d in (Path.cwd(),*Path.cwd().parents) if (d/'.codex/hooks/post_tool_use_validate.py').is_file()),None); sys.path.insert(0,str(p.parent)) if p else sys.exit('Hook script not found'); runpy.run_path(str(p),run_name='__main__')\"",
+            "timeout": 30,
+            "statusMessage": "Kontrolujem strukturu projektu"
+          }
+        ]
+      }
+    ]
+  }
+}

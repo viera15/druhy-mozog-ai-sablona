@@ -4,6 +4,8 @@ Verzia **1.0** k sérii *Druhý mozog a AI projekty*.
 
 Šablóna vám pomôže viesť jeden projekt v obyčajných súboroch Markdown. Podklady, rozpracované texty, rozhodnutia a úlohy majú vlastné miesto. Obsidian slúži na prezeranie a úpravu poznámok. Ak používate Codex s prístupom k miestnym súborom, môžete mu sprístupniť priečinok projektu a dať mu konkrétnu úlohu.
 
+Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_projektu). Začnite jej [projektovým README](Sablona_projektu/README.md), kde nájdete vzor zadania a prehľad priečinkov.
+
 ## Stiahnutie a otvorenie
 
 - Stiahnite si [ZIP so šablónou 1.0](Sablona_projektu_v1.0.zip) cez tlačidlo **Download raw file** a rozbaľte ho. Priečinok `Sablona_projektu` si premenujte podľa svojho projektu, napríklad na `Priprava_kurzu`.
