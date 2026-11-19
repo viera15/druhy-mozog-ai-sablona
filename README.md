@@ -4,6 +4,8 @@ Verzia **1.0** k sérii *Druhý mozog a AI projekty*.
 
 Šablóna vám pomôže viesť jeden projekt v obyčajných súboroch Markdown. Podklady, rozpracované texty, rozhodnutia a úlohy majú vlastné miesto. Obsidian slúži na prezeranie a úpravu poznámok. V desktopovej aplikácii ChatGPT môžete v režime Work sprístupniť AI priečinok projektu a zadať jej konkrétnu úlohu.
 
+**Šablónový projekt** je konkrétny projekt vytvorený z čistej šablóny. Preberá jej priečinky a základné súbory, ktoré si potom prispôsobíte podľa toho, na čom pracujete. Príkladom je `Priprava_kurzu` s vlastným cieľom, podkladmi a úlohami.
+
 Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_projektu). Začnite jej [projektovým README](Sablona_projektu/README.md), kde nájdete vzor zadania a prehľad priečinkov.
 
 ## Stiahnutie a otvorenie
