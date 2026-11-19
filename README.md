@@ -54,10 +54,10 @@ Pri zadávaní úlohy určite uveďte aj to, kam má AI uložiť výsledok, napr
 
 ## Voliteľné automatické kontroly
 
-Priečinok `.codex` obsahuje dva hooky. Sú to automatické kontroly, ktoré môže desktopová aplikácia ChatGPT spúšťať pri práci so súbormi vo Worku aj v Codexe, ak relácia beží celá lokálne. Jeden kontroluje vybrané zásahy do chránených súborov a druhý kontroluje projektovú štruktúru. Na spúšťanie hookov aj ručného validátora potrebujete mať na svojom počítači nainštalovaný Python 3. Ak ho ešte nemáte, môžete požiadať AI, aby vám ho doinštalovala. Ak chcete kontroly zapnúť, v desktopovej aplikácii ChatGPT otvorte **Nastavenia**. V položke **Hooky** skontrolujte a povoľte oba hooky projektu. Opis ich konfigurácie a skriptov nájdete v [návode k hookom](Sablona_projektu/.codex/README.md). Na ručné spustenie validátora použite z priečinka projektu tento príkaz:
+Priečinok `.codex` obsahuje dva hooky. Sú to automatické kontroly, ktoré môže desktopová aplikácia ChatGPT spúšťať pri práci so súbormi vo Worku aj v Codexe, ak relácia beží celá lokálne. Jeden kontroluje vybrané zásahy do chránených súborov a druhý kontroluje projektovú štruktúru. Na spúšťanie hookov aj projektového validátora potrebujete mať na svojom počítači nainštalovaný Python 3. Ak ho ešte nemáte, môžete požiadať AI, aby vám ho doinštalovala. Ak chcete kontroly zapnúť, v desktopovej aplikácii ChatGPT otvorte **Nastavenia**. V položke **Hooky** skontrolujte a povoľte oba hooky projektu. Opis ich konfigurácie a skriptov nájdete v [návode k hookom](Sablona_projektu/.codex/README.md).
 
-```text
-python .codex/hooks/project_validator.py --root .
-```
+Ak si chcete overiť, či má projekt potrebné súbory a priečinky a či záznamy dodržiavajú pravidlá šablóny, požiadajte AI, aby spustila projektový validátor. V chate s otvoreným priečinkom projektu môžete použiť tento pokyn.
 
-Ak sa Python na vašom počítači spúšťa príkazom `python3`, použite ho namiesto `python`. Pri čistej šablóne sú upozornenia na nevyplnené polia očakávané.
+> Spusť projektový validátor zo súboru `.codex/hooks/project_validator.py`. Vysvetli mi, čo treba opraviť. Súbory zatiaľ neupravuj.
+
+Pri čistej šablóne sú upozornenia na nevyplnené polia očakávané.
