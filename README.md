@@ -48,7 +48,7 @@ Z nápadu v `backlog.md` vytvorí AI úlohu v `open_items.md` iba na váš výsl
 
 ## Ďalšia práca v režime Work
 
-Keď sa dohodnete na novom pravidle pre projekt, požiadajte AI, aby ho zapísala do `AGENTS.md`. Napríklad „Doplň do AGENTS.md pravidlo, že pri návrhu osnovy máš vždy uviesť, pre koho je text určený.“ Zapísané pravidlo si skontrolujte.
+Keď sa dohodnete na novom pravidle pre projekt, požiadajte AI, aby ho zapísala do `AGENTS.md`. Napríklad „Doplň do AGENTS.md pravidlo, že pri návrhu osnovy máš vždy uviesť, pre koho je text určený.“ Potom si pravidlo skontrolujte priamo v súbore `AGENTS.md`.
 
 Pri zadávaní úlohy určte aj miesto na uloženie výsledku, napríklad `04_pracovne/osnova_kurzu.md`. Uložený súbor si potom skontrolujte v Obsidiane.
 
