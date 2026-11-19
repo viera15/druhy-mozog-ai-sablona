@@ -6,6 +6,8 @@ Verzia **1.0** k sérii *Druhý mozog a AI projekty*.
 
 **Šablónový projekt** je konkrétny projekt vytvorený z čistej šablóny. Preberá jej priečinky a základné súbory, ktoré si potom prispôsobíte podľa toho, na čom pracujete. Príkladom je `Priprava_kurzu` s vlastným cieľom, podkladmi a úlohami.
 
+Priečinky a súbory Markdown zo šablóny môžete použiť aj s inými nástrojmi, napríklad s Claude Code alebo Gemini CLI. Podľa zvoleného nástroja môže byť potrebné upraviť spôsob načítania pravidiel z `AGENTS.md`. Ak chcete používať aj automatické kontroly, prispôsobte nastavenie hookov danému nástroju.
+
 Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_projektu). Začnite jej [projektovým README](Sablona_projektu/README.md), kde nájdete vzor zadania a prehľad priečinkov.
 
 ## Stiahnutie a otvorenie
