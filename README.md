@@ -1,8 +1,8 @@
-# Projektová šablóna pre Obsidian a Codex
+# Projektová šablóna pre Obsidian a ChatGPT Work
 
 Verzia **1.0** k sérii *Druhý mozog a AI projekty*.
 
-Šablóna vám pomôže viesť jeden projekt v obyčajných súboroch Markdown. Podklady, rozpracované texty, rozhodnutia a úlohy majú vlastné miesto. Obsidian slúži na prezeranie a úpravu poznámok. Ak používate Codex s prístupom k miestnym súborom, môžete mu sprístupniť priečinok projektu a dať mu konkrétnu úlohu.
+Šablóna vám pomôže viesť jeden projekt v obyčajných súboroch Markdown. Podklady, rozpracované texty, rozhodnutia a úlohy majú vlastné miesto. Obsidian slúži na prezeranie a úpravu poznámok. V desktopovej aplikácii ChatGPT môžete v režime Work sprístupniť AI priečinok projektu a zadať jej konkrétnu úlohu.
 
 Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_projektu). Začnite jej [projektovým README](Sablona_projektu/README.md), kde nájdete vzor zadania a prehľad priečinkov.
 
@@ -17,7 +17,7 @@ Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani dopln
 
 ## Založenie projektu s AI
 
-V Codexe otvorte priečinok nového projektu, v ktorom je súbor `AGENTS.md`. Skopírujte do chatu tento pokyn:
+Otvorte desktopovú aplikáciu ChatGPT. V hornej časti nového chatu prepnite na **Work** a otvorte priečinok nového projektu, v ktorom je súbor `AGENTS.md`. Potom do chatu skopírujte nasledujúci pokyn.
 
 > Prečítaj si projektové súbory AGENTS.md a README.md. Spýtaj sa ma na názov projektu, čo ním chcem dosiahnuť a podľa čoho spoznáme, že je hotový. Počkaj na moje odpovede a podľa nich doplň príslušné časti v README.md. Zachovaj jeho nadpisy a poradie. Uprav iba README.md a použi len údaje, ktoré ti potvrdím. Na záver mi stručne povedz, čo si doplnil a ktoré polia ešte treba vyplniť.
 
@@ -40,7 +40,7 @@ Ak napríklad pripravujete krátky kurz, nový podklad uložte do `00_inbox`, os
 
 Nápady si odkladajte do `backlog.md`. Keď sa rozhodnete na niečom pracovať, zaevidujte úlohu v `open_items.md`. Dohody zapisujte do `decisions.md`, stručný aktuálny stav do `MEMORY.md` a priebeh práce do `diary.md`. Každý súbor má vlastnú vzorovú štruktúru.
 
-## Ďalšia práca s Codexom
+## Ďalšia práca v režime Work
 
 Vlastné pravidlá pre AI môžete doplniť do `AGENTS.md`. Keď zadávate úlohu, určte aj miesto na uloženie výsledku, napríklad `04_pracovne/osnova_kurzu.md`. Uložený súbor si potom skontrolujte v Obsidiane.
 
