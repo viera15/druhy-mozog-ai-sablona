@@ -12,9 +12,11 @@ Obsah si môžete prezrieť priamo na GitHube v [rozbalenej šablóne](Sablona_p
 
 ## Stiahnutie a otvorenie
 
+**Vault** je hlavný priečinok na disku, ktorý máte otvorený v Obsidiane a v ktorom sú vaše poznámky, podpriečinky a projekty. V Obsidiane môže mať každý vault vlastný názov.
+
 - Stiahnite si [Sablona_projektu_v1_0.zip](Sablona_projektu_v1_0.zip) cez tlačidlo **Download raw file** a rozbaľte ho. Priečinok `Sablona_projektu` si premenujte podľa svojho projektu, napríklad na `Priprava_kurzu`.
 - **Ak už máte vault**, skopírujte celý premenovaný priečinok doň. V Obsidiane nájdete nový projekt medzi ostatnými priečinkami.
-- **Ak začínate s novým vaultom**, v Obsidiane vyberte **Open folder as vault** a otvorte premenovaný priečinok projektu. Vault je priečinok na disku, v ktorom máte poznámky.
+- **Ak začínate s novým vaultom**, v Obsidiane vyberte **Open folder as vault** a otvorte premenovaný priečinok projektu.
 - Pri každom ďalšom projekte začnite z novej kópie ZIP súboru.
 
 Na prvé použitie stačí Obsidian alebo textový editor. Git, Python ani doplnok pre Obsidian na prácu s poznámkami nepotrebujete. [Ako otvoriť priečinok ako vault v Obsidiane](https://obsidian.md/help/manage-vaults) (v angličtine).
